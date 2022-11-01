@@ -1,21 +1,19 @@
+import { Menu } from "@mui/icons-material";
 import React from "react";
 
 const Header = () => {
   return (
-    <section className="h-20 bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-20 shadow-xl text-white ">
-      <div className="main-container flex justify-between items-center h-full">
-        <div>
-          <p className="text-2xl font-extrabold">Srinu Reddy</p>
-        </div>
-        <div>
-          <ul className="flex gap-5 font-semibold text-sm">
-            <li>HOME</li>
-            <li>ABOUT</li>
-            <li>PROJECTS</li>
-            <li>INTERESTS</li>
-            <li>CONTACT</li>
-          </ul>
-        </div>
+    <section className="h-20 w-full bg-purple-50 shadow-md sticky top-0">
+      <div className="flex justify-between main-container items-center h-full">
+        <p className="font-extrabold text-xl text-theme">Srinu.</p>
+        <ul className="flex gap-6 text-sm font-semibold text-theme">
+          <li>Home</li>
+          <li>About</li>
+          <li>Skills</li>
+          <li>Services</li>
+          <li>Portfolio</li>
+          <li>Contact</li>
+        </ul>
       </div>
     </section>
   );
